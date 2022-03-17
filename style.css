@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("water-20.gif");
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+body a:hover {
+    color: rgb(7, 58, 226);
+   
+}
+
+#RechteSpalte img {
+    padding-top: 30px;
+   
+}
+
+#zentrieren{
+    margin: 13px auto 12px auto;
+    width: 1300px;
+    border: 15px solid rgba(255, 255, 255, 0.479);
+}
+
+#kopf {
+    height: 180px;
+    background-color: rgb(255, 255, 255);
+}
+
+#navi {
+    text-align:center;
+    padding: 10px 300 10px 0;
+    background-color: rgba(0, 0, 255, 0.938);
+}
+
+#navi li{
+    font-size: 1.0em;
+    list-style: none;
+    display: inline;
+}
+
+#InnhaltGesamt {
+    position: relative;
+    overflow: hidden;
+    background:#FFF;
+}
+
+#LinkeSpalte {
+    float: left;
+    width: 700px;
+    margin-left: 150px;
+    color: rgb(31, 179, 238);
+    font-size: 1.2em;
+}
+
+#LinkeSpalte p.fett:first-letter    {
+    font-weight:bold;
+    font-size: 2.8em;
+    float:left;
+    padding-right:10px;
+}
+
+#RechteSpalte {
+    text-align:center;
+    float: right;
+    width: 450px;
+    
+}
+
+.legal__links {
+    display: flex;
+    align-items: center;
+    text-align: right;
+  }
+
+.heart {
+    color: #ff0000;
+  }
+
+#FussZeile, #navi {
+    background-color: rgb(31, 179, 238);
+}
+
+#FussZeile {
+    height: 130px;
+    padding: 15px;
+    clear: both;
+    color: white;
+    background-color: rgb(31, 179, 238);
+   
+}
+
+#FussZeile a{
+    font-weight:bold;
+    padding:15px;
+    text-decoration:none;
+    
+}
+
+.AbstandLinks {
+    margin-left: 10px;
